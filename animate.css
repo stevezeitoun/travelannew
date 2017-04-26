@@ -1,0 +1,140 @@
+.dropconnect {
+    position: relative;
+    bottom: -11px;
+    width: 56%;
+    text-align: center;
+    box-shadow: 5px 5px 5px #888888;
+    left: 153px;
+    border: none;
+    height: 62px;
+    border: 1px solid #DEDEDE;
+    border-radius: 5%;
+    background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #555555;
+  font-weight: bold;
+  display: flex;
+}
+
+.linkconnect {
+  text-decoration: none;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.linkconnect1 {
+  text-decoration: none;
+  padding-left: 60px;
+}
+
+.idea{
+  position: relative;
+  bottom: -11px;
+  width: 56%;
+  text-align: center;
+  box-shadow: 5px 5px 5px #888888;
+  left: 153px;
+  height: 400px;
+  border: 1px solid #DEDEDE;
+  border-radius: 5%;
+  background-color: white;
+}
+
+p {
+  color: #555555;
+  font-weight: bold;
+}
+
+.modal-dialog {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  width: 100%;
+  height: 270%;
+  background-color: rgba(0 , 0, 0, 0.7);
+  z-index: 2;
+}
+
+.message-box {
+  display: column;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0 , 0 , .0.4);
+
+}
+
+.modal-main {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 50%;
+  height: 450px;
+  background: #fff;
+  top: 20%;
+  left: 25%;
+  padding-left: 7%;
+  padding-right:7%;
+}
+.btn-send {
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #323232;
+}
+
+.btn-send:hover {
+  opacity: 1;
+  background: #323232;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-facebook {
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #3B5998;
+}
+
+.btn-facebook:hover {
+  opacity: 1;
+  background: ##3B5998;
+  text-decoration: none;
+  color: white;
+}
+.btn-google {
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #1266F1;
+}
+
+.btn-google:hover {
+  opacity: 1;
+  background: #1266F1;
+  text-decoration: none;
+  color: white;
+}
+
+.formControl {
+    width: 100%;
+    height: 40px;
+    margin-top: 17px;
+    background-color: rgb(239,239,239);
+    border: none;
+}
+
+.form-group{
+  margin-top: -1em;
+}
