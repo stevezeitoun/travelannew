@@ -11,4 +11,9 @@ app.controller('personCtrl', function($scope) {
     //If DIV is visible it will be hidden and vice versa.
     $scope.IsVisible = $scope.IsVisible ? false : true;
 };
+
+  $scope.showMe = false;
+  $scope.myFunc = function() {
+     $scope.showMe = !$scope.showMe;
+};
 });

@@ -47,7 +47,26 @@
               <a href="#" ng-click="toggle()"><i  class="fa fa-user-circle" aria-hidden ="true"></i></a>
               </div>
               <div class="dropconnect" href="#" ng-show="myVar">
-              <a class="linkconnect" href="#hello">Se Connecter</a>
+              <a class="linkconnect" ng-click="myFunc()" href="#">Se Connecter</a>
+              <div class="modal-dialog" ng-show="showMe">
+                  <div class="message-box">
+                    <div class="modal-main">
+                      <h1 id="contact">Bienvenue sur Travelan !</h1><br><br>
+
+                      <div class="form-group">
+                          <input type="email" class="formControl" id="exampleInputEmail1" placeholder="Email">
+                          <input type="email" class="formControl" id="exampleInputEmail1" placeholder="password">
+
+                      </div>
+                      <a href="#" class="btn-send">ENVOYER</a><br>
+                      <p>Or continue with</p><br>
+                      <a href="#" class="btn-facebook">FACEBOOK</a><br>
+                      <a href="#" class="btn-google">GOOGLE</a>
+
+                    </div>
+                  </div>
+            </div>
+
               <a class="linkconnect1" href="#">Inscription</a>
               </div>
            </div>
@@ -56,24 +75,6 @@
     </div>
   </nav>
 
-  <div id="hello" class="modal-dialog">
-      <div class="message-box">
-        <div class="modal-main">
-          <h1 id="contact">Bienvenue sur Travelan !</h1><br><br>
-
-          <div class="form-group">
-              <input type="email" class="formControl" id="exampleInputEmail1" placeholder="Email">
-              <input type="email" class="formControl" id="exampleInputEmail1" placeholder="password">
-
-          </div>
-          <a href="#" class="btn-send">ENVOYER</a><br>
-          <p>Or continue with</p><br>
-          <a href="#" class="btn-facebook">FACEBOOK</a><br>
-          <a href="#" class="btn-google">GOOGLE</a>
-
-        </div>
-      </div>
-</div>
 
 
 <div class="container cardshare">
